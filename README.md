@@ -51,13 +51,12 @@ Now, the best model (the one with the best validation accuracy) detects brain tu
 
 **88.7%** accuracy on the **test set**.<br>
 **0.88** f1 score on the **test set**.<br>
-These resutls are very good considering that the data is balanced.
 
 **Performance table of the best model:**
 
 | <!-- -->  | Validation set | Test set |
 | --------- | -------------- | -------- |
-| Accuracy  | 91%            | 89%      |
+| Accuracy  | 96%            | 92%      |
 | F1 score  | 0.91           | 0.88     |
 
 
