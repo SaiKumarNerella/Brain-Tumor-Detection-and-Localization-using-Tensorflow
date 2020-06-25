@@ -34,14 +34,13 @@ The data was split in the following way:
 
 Each input x (image) has a shape of (240, 240, 3) and is fed into the neural network. And, it goes through the following layers:<br>
 
-1. A Zero Padding layer with a pool size of (2, 2).
+1. A Zero Padding layer .
 2. A convolutional layer with 32 filters, with a filter size of (7, 7) and a stride equal to 1.
-3. A batch normalization layer to normalize pixel values to speed up computation.
+3. A batch normalization layer .
 4. A ReLU activation layer.
-5. A Max Pooling layer with f=4 and s=4.
-6. A Max Pooling layer with f=4 and s=4, same as before.
-7. A flatten layer in order to flatten the 3-dimensional matrix into a one-dimensional vector.
-8. A Dense (output unit) fully connected layer with one neuron with a sigmoid activation (since this is a binary classification task).
+5. Two consequtive Max Pooling layers.
+6. A flatten layer  to flatten it into a 1D Vector.
+7. A Dense (output unit) fully connected layer with one neuron with a sigmoid activation (since this is a binary classification task).
 
 for the above architecture model is trained for 20 epochs.
 
